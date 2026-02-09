@@ -16,17 +16,17 @@ A free script to Connect Mailerlite to Google Sheets to sync subscribers
 ### Step 3: Open Apps Script
 - In your Google Sheet, click **Extensions → Apps Script**
 
-### Step 4: Create the Config File
+### Step 4: Create the Code File
+- Click the **+** button again
+- Name the file **Code.gs**
+- Paste the code from the `Code.gs` file in the GitHub repository
+- Click **Save**
+
+### Step 5: Create the Config File
 - Click the **+** button next to **Files**
 - Name the file **Config.gs**
 - **Paste the Config code from the `Config.gs` file in the GitHub repository**
 - **Replace `YOUR_API_KEY_HERE` with your actual API key (from Step 1)**
-- Click **Save**
-
-### Step 5: Create the Code File
-- Click the **+** button again
-- Name the file **Code.gs**
-- Paste the code from the `Code.gs` file in the GitHub repository
 - Click **Save**
 
 ### Step 6: Run the First Sync
